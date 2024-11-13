@@ -52,10 +52,6 @@
         width: 15%;
     }
 
-    svg {
-        width: 100%;
-    }
-
     /* popular collection */
     .collection {
         gap: 2rem;
