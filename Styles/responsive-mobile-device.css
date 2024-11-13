@@ -22,6 +22,7 @@
     .banner-img {
         width: 100%;
     }
+
     .banner-img img {
         width: 100%;
     }
@@ -33,12 +34,14 @@
     .banner-content p {
         width: 100%;
     }
-/* main */
+
+    /* main */
     main {
         margin: 0 5%;
         gap: 3rem;
     }
-/* e-sites */
+
+    /* e-sites */
     .e-sites {
         flex-wrap: wrap;
         align-items: center;
@@ -47,6 +50,10 @@
 
     .e-sites img {
         width: 15%;
+    }
+
+    svg {
+        width: 100%;
     }
 
     /* popular collection */
@@ -65,7 +72,8 @@
         flex-direction: column;
         gap: 3rem;
     }
-    .featured-section img{
+
+    .featured-section img {
         width: 100%;
     }
 
