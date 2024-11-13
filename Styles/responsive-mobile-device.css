@@ -5,7 +5,7 @@
 
     nav {
         flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
         text-align: center;
     }
 
@@ -33,50 +33,39 @@
     .banner-content p {
         width: 100%;
     }
-
+/* main */
     main {
         margin: 0 5%;
-        /* display: flex;
-        flex-direction: column;
-        gap: 6.25rem; */
+        gap: 3rem;
     }
-
-    /* .e-sites-container {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        padding-top: 4.5rem;
-    } */
-
+/* e-sites */
     .e-sites {
         flex-wrap: wrap;
         align-items: center;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     .e-sites img {
         width: 15%;
     }
 
-
     /* popular collection */
     .collection {
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
+        gap: 2rem;
         padding: 0 2%;
     }
 
     .card-container {
-        /* display: grid; */
         grid-template-columns: repeat(1, 1fr);
-        /* gap: 1.875rem; */
+        gap: 1.5rem;
     }
 
     /* featured-products */
     .featured-section {
         flex-direction: column;
-        align-items: center;
-        gap: 6rem;
+        gap: 3rem;
+    }
+    .featured-section img{
+        width: 100%;
     }
 }

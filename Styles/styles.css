@@ -199,12 +199,6 @@ main {
     gap: 6rem;
 }
 
-/* .featured-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-} */
-
 .featured-content {
     color: #6C6C6C;
     font-weight: 700;
